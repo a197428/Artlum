@@ -262,35 +262,41 @@ img {
 ==========*/
 
 .contact {
-	padding: 3rem 0 4rem;
+	padding: 4.8rem 0 6.4rem;
+}
+
+.contact h2 {
+	margin-bottom: 3rem;
 }
 
 .contact p {
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-bottom: 3.2rem;
+	font-size: 1.8rem;
 }
 
-.form-group {
-	margin: 2rem 0;
+.contact .form-group {
+	margin: 3.2rem 0;
 }
 
 .contact input,
 .contact textarea {
 	border: none;
-	border-bottom: 1px #333 solid;
+	border-bottom: 1px solid #333;
 	width: 100%;
 	font-family: inherit;
-	font-size: inherit;
-	padding-bottom: 1rem;
-}
-
-.contact textarea {
-	height: 200px;
+	font-size: 1.4rem;
+	padding-bottom: 1.6rem;
 }
 
 .contact input:focus,
 .contact textarea:focus {
-	outline: 0;
+	outline: none;
+	border-bottom: 2px solid #007bff;
+}
+
+.contact textarea {
+	height: 200px;
 }
 
 .contact button {
